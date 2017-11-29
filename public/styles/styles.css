@@ -1,0 +1,120 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px auto;
+  padding: 0px;
+}
+
+pre {
+  white-space: pre;
+  text-align: left;
+  color: #fff;
+}
+
+#terminal {
+  position: absolute;
+  top: 6%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow-y: scroll;
+  color: #fff;
+}
+
+#editor {
+  position: absolute;
+  top: 6%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow-y: scroll;
+}
+
+
+#input {
+  color: #fff;
+  border: none;
+  width: 100%;
+  background-color: #181818;
+}
+
+#input::-webkit-input-placeholder {
+  color: #e0e0e0;
+}
+#input::-moz-placeholder {
+  color: #e0e0e0;
+}
+#input:-ms-input-placeholder {
+  color: #e0e0e0;
+}
+#input:-moz-placeholder {
+  color: #e0e0e0;
+}
+
+.white {
+    color: #e0e0e0;
+}
+
+.red {
+    color: #f44336;
+}
+
+#loader {
+    z-index: 100;
+    position: absolute;
+    top: 50;
+    bottom: 50;
+    left: 50;
+    right: 50;
+    margin: auto;
+    opacity: 70;
+}
+
+#loadme {
+    display: none;
+    border: none;
+}
+
+#run {
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    z-index: 0;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #181818;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #2196f3;
+    width: 80%; 
+    white-space: pre;
+}
+
+/* The Close Button */
+.close {
+    color: #e0e0e0;
+    float: right;
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    text-decoration: none;
+    cursor: pointer;
+}

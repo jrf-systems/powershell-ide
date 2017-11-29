@@ -1,0 +1,6 @@
+extends layout.pug
+
+block content
+  div(ng-controller="indexController")
+    div(ctrlc="resetTerminal()")#terminal
+      input(type="text", placeholder="PS> "  ng-model="command" enter="sendCommand()")#input

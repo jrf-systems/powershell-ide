@@ -1,0 +1,28 @@
+html
+  head
+    title PowerShell IDE
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Roboto")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/hack/0.8.0/standard.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/hack/0.8.0/hack.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/hack/0.8.0/dark-grey.css")
+    link(rel="stylesheet" href="styles/styles.css")
+    link(rel="stylesheet" href="libs/awesomplete/auto-complete.css")
+    script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js")
+    script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.min.js")
+    script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-resource.min.js")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js")
+    //script(src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js")
+    script(src="https://cdn.socket.io/socket.io-1.4.5.js")
+    script(src="/js/cmdlets.js")
+    script(src="/libs/awesomplete/auto-complete.min.js")
+    script(src="/libs/ace-builds/ace.js")
+    script(src="/libs/ace-builds/ext-language-tools.js")
+    script(src="/js/directives.js")
+    script(src="/js/services.js")
+    script(src="/js/controllers.js")
+    script(src="/js/app.js")
+  body(ng-app="app" class="hack dark-grey")
+    div.grid
+      a(href="/ide").btn.btn-primary.cell IDE
+      a(href="/term").btn.btn-info.cell Terminal
+    block content
