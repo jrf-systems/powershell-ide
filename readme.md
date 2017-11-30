@@ -18,3 +18,8 @@ Run the app:
 `node server.js`
 
 And finally, go to http://localhost:7979/ in your web browser.
+
+Screenshots:
+![alt text](https://www.jesserussell.net/wp-content/uploads/2017/11/pside3.png)
+![alt text](https://www.jesserussell.net/wp-content/uploads/2017/11/pside1.png)
+![alt text](https://www.jesserussell.net/wp-content/uploads/2017/11/pside2.png)
