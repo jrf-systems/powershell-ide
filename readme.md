@@ -1,4 +1,4 @@
-## Powershell IDE built with Node.js
+## A PowerShell IDE and terminal for the browser
 ![Powershell IDE screenshot 1](https://raw.githubusercontent.com/RussellWebSystems/powershell-ide/master/images/pside1.png "Powershell IDE editor with autocomplete")
 ![Powershell IDE screenshot 2](https://raw.githubusercontent.com/RussellWebSystems/powershell-ide/master/images/pside2.png "Powershell IDE script editor results")
 ![Powershell IDE screenshot 3](https://raw.githubusercontent.com/RussellWebSystems/powershell-ide/master/images/pside3.png "Powershell IDE terminal")
