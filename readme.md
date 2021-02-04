@@ -1,6 +1,6 @@
 ## A PowerShell IDE and terminal for the browser
 
-This is a proof-of-concept PowerShell IDE/terminal for the browser, built with Node.js. Theoretically, if Powershell is installed on a Linux or macOS device, this app should work. This project can be used to demonstrate vulnerabilities and remote Powershell execution capabilities.  It should not be used for anything else.
+This is a proof-of-concept PowerShell IDE/terminal for the browser, built with Node.js. Theoretically, if Powershell is installed on a Linux or macOS device, this app should work. It can be used to demonstrate vulnerabilities and remote Powershell execution capabilities.  It should not be used for anything else.
 
 ![Powershell IDE screenshot 1](https://raw.githubusercontent.com/RussellWebSystems/powershell-ide/master/images/pside1.png "Powershell IDE editor with autocomplete")
 ![Powershell IDE screenshot 2](https://raw.githubusercontent.com/RussellWebSystems/powershell-ide/master/images/pside2.png "Powershell IDE script editor results")
