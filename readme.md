@@ -5,6 +5,8 @@
 
 This is a proof-of-concept PowerShell IDE/terminal for the browser, built with Node.js. Theoretically, if Powershell is installed on a Linux or macOS device, this app should work.
 
+This project can be used to demonstrate vulnerabilities and remote Powershell execution capabilities.  It should not be used for anything else.
+
 The app consists of two tabs, a terminal and a script pane. When you run the code in the script pane, the output appears in a modal pop-up.
 
 In the script pane, press ctrl+space for autocomplete.
