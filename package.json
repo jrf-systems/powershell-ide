@@ -14,6 +14,6 @@
     "nodemon": "^2.0.7",
     "powershell": "^2.2.1",
     "pug": "^2.0.0-rc.4",
-    "socket.io": "^2.0.4"
+    "socket.io": "^2.5.0"
   }
 }
