@@ -9,8 +9,8 @@
   "author": "Jesse Russell",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "nodemon": "^2.0.7",
     "powershell": "^2.2.1",
     "pug": "^2.0.0-rc.4",
